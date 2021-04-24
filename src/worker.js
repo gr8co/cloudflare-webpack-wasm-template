@@ -10,7 +10,7 @@ addEventListener('fetch', event => {
  */
 async function handleRequest(request) {
   try {
-    const module = await import(__dirname + "/../pkg");
+    const module = await import("../pkg");
     const output = module.parse(request)
 
     let res = new Response(output, { status: 200 })
