@@ -1,0 +1,7 @@
+name = "cloudflare-webpack-wasm-template"
+type = "webpack"
+
+workers_dev = true
+route = ""
+zone_id = ""
+webpack_config = "./webpack.config.js"

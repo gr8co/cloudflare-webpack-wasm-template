@@ -1,0 +1,15 @@
+{
+  "name": "js-wasm-worker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/worker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "yosay": "^2.0.2",
+    "@wasm-tool/wasm-pack-plugin": "^1.4.0"
+  }
+}

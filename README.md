@@ -1,2 +1,8 @@
-# cloudflare_webpack_wasm_template
-Template project to work with webpack based WASM so you can work partially in JS/TS, partially in WASM
+# Cloudflare Webpack WASM template
+
+- Open with VSCode using the .devcontainer for the fastest way to start programming
+- run `wrangler preview` (optionally, provide your CF_ACCOUNT_ID in ENV or account_id in wrangler.toml)
+
+This project template showcases how you can call javascript function within wasm, and how to
+use Cloudflare workers using WASM using webpack.
+
