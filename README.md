@@ -6,3 +6,5 @@
 This project template showcases how you can call javascript function within wasm, and how to
 use Cloudflare workers using WASM using webpack.
 
+Use as a wrangler template:
+`wrangler generate $NAME https://github.com/ronaldslc/cloudflare-webpack-wasm-template`
